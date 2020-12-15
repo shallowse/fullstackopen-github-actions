@@ -45,7 +45,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: 'patch'
-          INITIAL_VERSION: '1.0.0'
           RELEASE_BRANCHES: 'main'
       - name: Success indication # https://action-slack.netlify.app/usecase/02-custom
         if: ${{ success() }}
