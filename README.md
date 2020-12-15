@@ -7,7 +7,6 @@ excercises 11.21. - 11.22.
 
 Start by running `npm install` inside the project folder
 
-`npm start` to run the webpack dev server
 `npm run eslint` to run eslint
 `npm test:e2e` to run cypress tests
 `npm run build` to make a production build
